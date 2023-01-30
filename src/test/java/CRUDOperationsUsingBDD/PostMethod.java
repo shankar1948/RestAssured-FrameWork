@@ -10,10 +10,6 @@ import org.testng.annotations.Test;
 import io.restassured.http.ContentType;
 import static io.restassured.response.Response.*;
 
-
-
-
-
 public class PostMethod {
 	@Test
 	public void postMethod() {
@@ -31,8 +27,7 @@ public class PostMethod {
 		given()
 		.body(js)
 		.contentType(ContentType.JSON)
-		.when()
-		.post("/addProject")
+		.when().post("/addProject")
 		.then()
 		.log().all()
 		.statusCode(201)
