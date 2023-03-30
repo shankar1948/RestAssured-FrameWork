@@ -25,10 +25,9 @@ public class WriteResponseIntoFile extends GenericUtils{
 		String resp=res.asString();
 		byte[] bytes = resp.getBytes();
 		File file=new File("./src/test/resources/usingAsString.json");
-		Files.write(bytes, file);
-		
-		
+		Files.write(bytes, file);	
 	}
+	
 	@Test
 	public void usingInputStream() throws Throwable {
 		Response res=
@@ -55,17 +54,4 @@ public class WriteResponseIntoFile extends GenericUtils{
 				File file=new File("./src/test/resources/DirectBytes.json");
 				Files.write(resp, file);
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }

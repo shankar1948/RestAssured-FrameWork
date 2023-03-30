@@ -1,1 +1,1 @@
-{"address":"Haveri","empName":"Arun","phone":"985642533","empId":"TYSS02","email":["Arun@gmail","BG@gmail"],"empSpouseDetails":{"address":"Gajendragada","phone":"9568547855","empId":"TYS02","spsName":"G","email":"G@gmail"}}
+{"empSpouseDetails":{"empId":"TYS02","phone":"9568547855","address":"Gajendragada","spsName":"G","email":"G@gmail"},"empId":"TYSS02","phone":"985642533","address":"Haveri","email":["Arun@gmail","BG@gmail"],"empName":"Arun"}

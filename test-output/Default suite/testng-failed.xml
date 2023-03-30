@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Validation.DynamicResponseValidation">
+      <class name="CRUDOperationWithoutBDD.AddProject">
         <methods>
-          <include name="closeDB"/>
-          <include name="databaseConnect"/>
-          <include name="dynamicValidation"/>
-          <include name="validation"/>
-          <include name="URI"/>
+          <include name="postMethod"/>
         </methods>
-      </class> <!-- Validation.DynamicResponseValidation -->
+      </class> <!-- CRUDOperationWithoutBDD.AddProject -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -28,7 +28,7 @@ public class AddProject {
 		reqSpec.contentType(ContentType.JSON);
 		
 		//Action
-		Response response = reqSpec.post("http://localhost:8084/addProject");
+		Response response = reqSpec.post("http://www.rmgtestingserver:8084/addProject");
 		 //validation
 		System.out.println(response.getContentType());
 		response.then().log().all();
