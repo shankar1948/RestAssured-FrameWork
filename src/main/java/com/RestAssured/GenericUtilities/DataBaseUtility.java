@@ -24,9 +24,6 @@ public class DataBaseUtility {
 	
 	}
 	
-	
-	
-	
 	public String executeQueryAndGetData(String query, int columnIndex, String expdata) throws Throwable {
 		boolean flag = false;
 		//String data=null;

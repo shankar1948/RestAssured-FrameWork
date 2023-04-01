@@ -43,8 +43,6 @@ public class GenericUtils {
 	System.out.println("DataBase Connected");
 	}
 	
-	
-	
 	/**
 	 * This method is used to close the data base
 	 * @throws Throwable 
@@ -75,7 +73,6 @@ public class GenericUtils {
 		ResponseSpecBuilder response=new ResponseSpecBuilder();
 		response.expectContentType(ContentType.JSON);
 	}
-	
 	
 	
 	/**
